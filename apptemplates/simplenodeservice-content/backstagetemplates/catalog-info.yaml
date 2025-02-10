@@ -14,12 +14,12 @@ metadata:
     - url: https://github.com/HeyItsArmend/enablement-openpipeline-segments-iam.git
       title: Github Repo
       icon: github
-    - url: https://miniature-fortnight-5g4gr4j6xpx4hq96-80.GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN_PLACEHOLDER/${{ values.projectName }}-${{ values.teamIdentifier }}-${{ values.releaseStage }}
+    - url: https://miniature-fortnight-5g4gr4j6xpx4hq96-80.app.github.dev/${{ values.projectName }}-${{ values.teamIdentifier }}-${{ values.releaseStage }}
       title: "Browse Application"
       icon: subject
     - title: View in ArgoCD
       icon: catalog
-      url: https://miniature-fortnight-5g4gr4j6xpx4hq96-30100.GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN_PLACEHOLDER/applications/argocd/${{ values.projectName }}-${{ values.teamIdentifier }}-${{ values.releaseStage }}
+      url: https://miniature-fortnight-5g4gr4j6xpx4hq96-30100.app.github.dev/applications/argocd/${{ values.projectName }}-${{ values.teamIdentifier }}-${{ values.releaseStage }}
     - title: View in Dynatrace
       icon: catalog
       url: https://cii00606.apps.dynatrace.com
